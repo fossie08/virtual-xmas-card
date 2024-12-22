@@ -41,26 +41,8 @@
     Wishing you a season of joy and looking forward to continued success in 2025.
    </p>
    <img alt="A beautifully decorated Christmas tree with lights and ornaments" class="mx-auto mb-6" height="300" src="https://storage.googleapis.com/a1aa/image/XO9lQgfwivxHAa0Nlfa27h21UceZXNuMBO1Rn4j3Q2jZrU6nA.jpg" width="300"/>
-   <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full" id="music-control">
-    <i class="fas fa-pause">
-    </i>
-    Pause Music
-   </button>
   </div>
-  <audio autoplay="" id="christmas-music" loop="" src="https://www.bensound.com/bensound-music/bensound-christmas.mp3">
-  </audio>
   <script>
-   document.getElementById('music-control').addEventListener('click', function() {
-            const music = document.getElementById('christmas-music');
-            if (music.paused) {
-                music.play();
-                this.innerHTML = '<i class="fas fa-pause"></i> Pause Music';
-            } else {
-                music.pause();
-                this.innerHTML = '<i class="fas fa-play"></i> Play Music';
-            }
-        });
-
         function createSnowflake() {
             const snowflake = document.createElement('i');
             snowflake.classList.add('fas', 'fa-snowflake', 'snowflake');
